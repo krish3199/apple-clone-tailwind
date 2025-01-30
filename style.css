@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.hearts-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.heart {
+    position: absolute;
+    font-size: 20px;
+    color: #ff2d55;
+    animation: float-up 5s linear;
+    transform: scale(0.8);
+}
+
+@keyframes float-up {
+    0% {
+        transform: translateY(100vh) scale(0.8);
+    }
+    100% {
+        transform: translateY(-100vh) scale(0.8);
+    }
+}
+
+main > div:first-child {
+    min-height: 400px;
+    background-color: transparent !important;
+}
+
+.absolute.inset-0 {
+    height: 400px;
+    background-size: 3840px 400px !important;
+}
