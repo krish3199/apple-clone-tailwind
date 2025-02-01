@@ -108,39 +108,115 @@
 
         <div id="overlay" class="fixed inset-0 bg-black  hidden z-[98]"></div>
 
-        <main class="pt-[30px] space-y-3 relative z-[1]">
-            <div class="relative bg-[#fbfbfd] overflow-hidden h-[400px]">
-                <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/vday-store-seasonalbanner-202501?wid=3840&hei=400&fmt=png-alpha&.v=1737999438042');"></div>
-                <div class="hearts-container"></div>
-                <div class="max-w-[980px] mx-auto px-4 py-12 relative z-10">
-                    <div class="flex justify-between items-start flex-wrap">
-                        <div class="w-full md:w-auto mb-6 md:mb-0">
-                            <h1 class="text-4xl font-semibold">
-                                <span class="text-[#ff2d55]">Store.</span> Valentine's Day gifts<br/>made to love.
-                            </h1>
-                        </div>
-                        <div class="flex flex-wrap gap-4 w-full md:w-auto">
-                            <div class="flex items-center gap-2 hover:opacity-80 cursor-pointer">
-                                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-chat-specialist-icon-202305?wid=35&hei=35" alt="Specialist" class="w-8 h-8 rounded-full">
-                                <div class="text-sm">
-                                    <p class="font-semibold">Need shopping help?</p>
-                                    <p class="text-[#06c]">Ask a Specialist</p>
-                                </div>
+        <main class="pt-[30px] space-y-3 relative z-[1] bg-[rgb(245,245,247)]">
+            <div class="container mx-auto px-4 py-8 ">
+                <div class="relative">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/vday-store-seasonalbanner-202501?wid=3840&hei=400&fmt=png-alpha&.v=1737999438042" alt="">
+                    <!-- Hearts Background Animation -->
+                    
+                    <div class="container mx-auto px-4 py-8">
+                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                            <!-- Main Content -->
+                            <div class="mb-10 md:mb-0">
+                                <h1 class="text-4xl md:text-5xl font-semibold mb-2">
+                                    <span class="text-[rgb(255,61,81)]">Store.</span>
+                                    <span class="text-[rgb(110,110,115)]">Valentine's Day gifts</span>
+                                </h1>
+                                <p class="text-xl text-[rgb(110,110,115)] md:text-5xl font-semibold">made to love.</p>
                             </div>
-                            <div class="flex items-center gap-2 hover:opacity-80 cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                                </svg>
-                                <div class="text-sm">
-                                    <p class="font-semibold">Visit an Apple Store</p>
-                                    <p class="text-[#06c]">Find one near you ›</p>
+                    
+                            <!-- Right-Aligned Sections -->
+                            <div class="conn flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-8">
+                                <!-- Shopping Help Section -->
+                                <div class="flex items-center space-x-2">
+                                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-chat-specialist-icon-202305?wid=35&hei=35&fmt=jpeg&qlt=95&.v=1684947928869" alt="Specialist" class="w-8 h-8 rounded-full"/>
+                                    <div class="text-right">
+                                        <p class="text-sm font-medium">Need shopping help?</p>
+                                        <p class="text-sm  flex j text-[rgb(0,113,227)]">Ask a Specialist</p>
+                                       
+                                    </div>
+                                </div>
+                    
+                                <!-- Store Location Link -->
+                                <div class="flex items-center space-x-2">
+                                    <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
+                                    <div class="text-right">
+                                        <p class="text-sm">Visit an Apple Store</p>
+                                        <a href="#" class="Ask a Specialist text-sm hover:underline text-[rgb(0,113,227)]">Find one near you</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Main Content -->
+                    
+        
+                   
+                    <!-- Products Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-9 gap-6 text-center">
+                        <!-- Mac -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202410?wid=400&hei=260&fmt=png-alpha&.v=1728342368663" alt="Mac" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">Mac</span>
+                        </div>
+        
+                        <!-- iPhone -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202409_GEO_EMEA?wid=400&hei=260&fmt=png-alpha&.v=1723857138464" alt="iPhone" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">iPhone</span>
+                        </div>
+        
+                        <!-- iPad -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=1714168620875" alt="iPad" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">iPad</span>
+                        </div>
+        
+                        <!-- Apple Watch -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1724165625838" alt="Apple Watch" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">Apple Watch</span>
+                        </div>
+        
+                        <!-- AirPods -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1722974349822" alt="AirPods" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">AirPods</span>
+                        </div>
+        
+                        <!-- AirTag -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&hei=260&fmt=png-alpha&.v=1625783380000" alt="AirTag" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">AirTag</span>
+                        </div>
+        
+                        <!-- Apple TV & AR -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664628458484" alt="Apple TV" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">Apple TV & AR</span>
+                        </div>
+        
+                        <!-- HomePod -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=1670389216654" alt="HomePod" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">HomePod</span>
+                        </div>
+        
+                        <!-- Accessories -->
+                        <div class="flex flex-col items-center space-y-2">
+                            <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1723738892174" alt="Accessories" class="w-24 h-24 object-contain"/>
+                            <span class="text-sm font-medium">Accessories</span>
+                        </div>
+                    </div>
+        
+                    <!-- Shopping Help Section -->
+                   
                 </div>
             </div>
+        
 
             <div class="bg-white">
                 <h2 class="text-3xl font-semibold mb-6 pl-[40px] mt-8" ><span class="text-[rgb(255,61,81)]">The latest. </span> <span class="text-[rgb(100,100,105)]"> All-new, and heartfelt.</span></h2>
@@ -276,29 +352,33 @@
                         <!-- Slider Items -->
                         <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
                             <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105">
-                                <p class="text-gray-700 mb-2">Built for professionals.</p>
-                                <p class="text-xl font-semibold text-gray-900">From ₹1,99,900.00</p>
+                                <p class="text-[rgb(68,169,215)] text-1xl font-semibold mb-2">
+                                    APPLE STORE APP</p>
+                                <p class="text-[35px] font-semibold  ">Discover a new way to  shop.</p>
                                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-india-asa-launch-202501?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1736763680757" alt="Apple MacBook Pro" class="w-full h-auto rounded-lg mb-4">
                             </div>
                         </div>
                         <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
                             <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105">
-                                <p class="text-gray-700 mb-2">Built for professionals.</p>
-                                <p class="text-xl font-semibold text-gray-900">From ₹1,99,900.00</p>
+                                <p class="text-[rgb(68,169,215)] text-1xl font-semibold mb-2">
+                                    PERSONALISATION</p>
+                                <p class="text-[33px] font-semibold  ">Explore recommendations customised for you.</p>
                                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-india-asa-personalisation-202501?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1736763681484" alt="Apple MacBook Pro" class="w-full h-auto rounded-lg mb-4">
                             </div>
                         </div>
                         <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
                             <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105">
-                                <p class="text-gray-700 mb-2">Built for professionals.</p>
-                                <p class="text-xl font-semibold text-gray-900">From ₹1,99,900.00</p>
+                                <p class="text-[rgb(68,169,215)] text-1xl font-semibold mb-2">
+                                    SEAMLESS SHOPPING</p>
+                                <p class="text-[33px] font-semibold  ">Browse. Save. Pick up where you left off.</p>
                                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-india-asa-for-you-202501?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1736763680936" alt="Apple MacBook Pro" class="w-full h-auto rounded-lg mb-4">
                             </div>
                         </div>
                         <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
                             <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105">
-                                <p class="text-gray-700 mb-2">Built for professionals.</p>
-                                <p class="text-xl font-semibold text-gray-900">From ₹1,99,900.00</p>
+                                <p class="text-[rgb(68,169,215)] text-1xl font-semibold mb-2">
+                                    GO FURTHER</p>
+                                <p class="text-[33px] font-semibold  ">Learn how to get more from your devices.</p>
                                 <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-india-asa-go-further-202501?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1737095125109" alt="Apple MacBook Pro" class="w-full h-auto rounded-lg mb-4">
                             </div>
                         </div>
@@ -317,108 +397,313 @@
                     </button>
                 </div>
             </section>
-            <script>
-                // Mobile Menu Toggle
-                const menuBtn = document.getElementById('menuBtn');
-                const mobileMenu = document.getElementById('mobileMenu');
-                const overlay = document.getElementById('overlay');
-                let isMenuOpen = false;
-                
-                menuBtn.addEventListener('click', () => {
-                    isMenuOpen = !isMenuOpen;
-                    if (isMenuOpen) {
-                        mobileMenu.classList.remove('-translate-y-full');
-                        mobileMenu.classList.add('translate-y-[44px]');
-                        overlay.classList.remove('hidden');
-                        overlay.classList.add('block', );
-                    } else {
-                        mobileMenu.classList.add('-translate-y-full');
-                        mobileMenu.classList.remove('translate-y-[44px]');
-                        overlay.classList.add('hidden');
-                        overlay.classList.remove('block', 'bg-opacity-50');
-                    }
-                });
+            <section class="my-10">
+                <h2 class="text-3xl font-semibold mb-6 pl-[40px]">
+                    <span class="text-[rgb(255,61,81)]">Accessories.</span>
+                    <span class="text-[rgb(110,110,115)]">Find the perfect match.</span>
+                </h2>
 
-                // First Slider
-                const slider = document.getElementById('slider');
-                const prevBtn = document.getElementById('prevBtn');
-                const nextBtn = document.getElementById('nextBtn');
-                const slides = document.querySelectorAll('#slider > .slider-item');
-                
-                let currentSlide = 0;
-                const totalSlides = slides.length;
-                
-                function updateSliderPosition() {
-                    const slideWidth = 100;
-                    slider.style.transform = `translateX(-${currentSlide * slideWidth}%)`;
-                    updateButtons();
+                <div class="slider-container mx-auto px-4 relative">
+                    <div class="slider" id="slider3">
+                        <!-- Valentine's Day Special -->
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Clear Case with MagSafe</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-valentines-accessories-202501?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1734624551518" alt="iPhone 15 Pro Clear Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- iPhone 15 Pro Clear Case -->
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Clear Case with MagSafe</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MA7E4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723930332796" alt="iPhone 15 Pro Clear Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sport Loop -->
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <span class="text-xs text-orange-500">New</span>
+                                    <h3 class="text-lg font-semibold mt-1">45mm Black Unity Sport Loop – Unity Rhythm</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4800.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MDF54?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1734628448223" alt="Sport Loop" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AirPods Max -->
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">AirPods Max - Purple</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹69900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-202409-purple?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724927451266" alt="AirPods Max" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- iPhone 15 Pro Silicone Case -->
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MYYM3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723593625848" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWQW3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1716251412396" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXW33ref?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724186583979" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUW33?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1712255584823" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MA7A4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1723573541772" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MC2T4?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1727989774498" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX6X3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1724257154789" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item w-full sm:w-1/2 lg:w-1/4 p-3">
+                            <div class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 h-[500px] flex flex-col">
+                                <div class="mb-4 flex-none">
+                                    <h3 class="text-lg font-semibold">iPhone 15 Pro Silicone Case with MagSafe – Plum</h3>
+                                    <p class="text-gray-600 mt-1">MRP ₹4900.00 (Incl. of all taxes)</p>
+                                </div>
+                                <div class="flex-1 flex items-center justify-center">
+                                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-accessories-explore-202410?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1728266907826" alt="iPhone 15 Pro Silicone Case" class="w-full h-auto max-h-[250px] object-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white/90 p-3 rounded-full shadow-lg z-10" id="prevBtn3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white/90 p-3 rounded-full shadow-lg z-10" id="nextBtn3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+        </main>
+        <script>
+            // Mobile Menu Toggle
+            const menuBtn = document.getElementById('menuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const overlay = document.getElementById('overlay');
+            let isMenuOpen = false;
+            
+            menuBtn.addEventListener('click', () => {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.classList.remove('-translate-y-full');
+                    mobileMenu.classList.add('translate-y-[44px]');
+                    overlay.classList.remove('hidden');
+                    overlay.classList.add('block', 'bg-opacity-50');
+                } else {
+                    mobileMenu.classList.add('-translate-y-full');
+                    mobileMenu.classList.remove('translate-y-[44px]');
+                    overlay.classList.add('hidden');
+                    overlay.classList.remove('block', 'bg-opacity-50');
                 }
-                
-                function updateButtons() {
-                    prevBtn.style.display = currentSlide === 0 ? 'none' : 'block';
-                    nextBtn.style.display = currentSlide >= totalSlides - 1 ? 'none' : 'block';
-                }
-                
-                function goToSlide(index) {
-                    currentSlide = Math.max(0, Math.min(index, totalSlides - 1));
-                    updateSliderPosition();
-                }
-                
-                prevBtn.addEventListener('click', () => {
-                    if (currentSlide > 0) {
-                        goToSlide(currentSlide - 1);
-                    }
-                });
-                
-                nextBtn.addEventListener('click', () => {
-                    if (currentSlide < totalSlides - 1) {
-                        goToSlide(currentSlide + 1);
-                    }
-                });
-                
-                // Initialize first slider
+            });
+
+            // First Slider
+            const slider = document.getElementById('slider');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const slides = document.querySelectorAll('#slider > .slider-item');
+            
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+            
+            function updateSliderPosition() {
+                const slideWidth = 100;
+                slider.style.transform = `translateX(-${currentSlide * slideWidth}%)`;
                 updateButtons();
+            }
+            
+            function updateButtons() {
+                prevBtn.style.display = currentSlide === 0 ? 'none' : 'block';
+                nextBtn.style.display = currentSlide >= totalSlides - 1 ? 'none' : 'block';
+            }
+            
+            function goToSlide(index) {
+                currentSlide = Math.max(0, Math.min(index, totalSlides - 1));
+                updateSliderPosition();
+            }
+            
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    goToSlide(currentSlide - 1);
+                }
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    goToSlide(currentSlide + 1);
+                }
+            });
+            
+            // Initialize first slider
+            updateButtons();
 
-                // Second Slider
-                const slider2 = document.getElementById('slider2');
-                const prevBtn2 = document.getElementById('prevBtn2');
-                const nextBtn2 = document.getElementById('nextBtn2');
-                const slides2 = document.querySelectorAll('#slider2 > .slider-item');
-                
-                let currentSlide2 = 0;
-                const totalSlides2 = slides2.length;
-                
-                function updateSliderPosition2() {
-                    const slideWidth = 100;
-                    slider2.style.transform = `translateX(-${currentSlide2 * slideWidth}%)`;
-                    updateButtons2();
-                }
-                
-                function updateButtons2() {
-                    prevBtn2.style.display = currentSlide2 === 0 ? 'none' : 'block';
-                    nextBtn2.style.display = currentSlide2 >= totalSlides2 - 1 ? 'none' : 'block';
-                }
-                
-                function goToSlide2(index) {
-                    currentSlide2 = Math.max(0, Math.min(index, totalSlides2 - 1));
-                    updateSliderPosition2();
-                }
-                
-                prevBtn2.addEventListener('click', () => {
-                    if (currentSlide2 > 0) {
-                        goToSlide2(currentSlide2 - 1);
-                    }
-                });
-                
-                nextBtn2.addEventListener('click', () => {
-                    if (currentSlide2 < totalSlides2 - 1) {
-                        goToSlide2(currentSlide2 + 1);
-                    }
-                });
-                
-                // Initialize second slider
+            // Second Slider
+            const slider2 = document.getElementById('slider2');
+            const prevBtn2 = document.getElementById('prevBtn2');
+            const nextBtn2 = document.getElementById('nextBtn2');
+            const slides2 = document.querySelectorAll('#slider2 > .slider-item');
+            
+            let currentSlide2 = 0;
+            const totalSlides2 = slides2.length;
+            
+            function updateSliderPosition2() {
+                const slideWidth = 100;
+                slider2.style.transform = `translateX(-${currentSlide2 * slideWidth}%)`;
                 updateButtons2();
-            </script>
-        
-    </body>
+            }
+            
+            function updateButtons2() {
+                prevBtn2.style.display = currentSlide2 === 0 ? 'none' : 'block';
+                nextBtn2.style.display = currentSlide2 >= totalSlides2 - 1 ? 'none' : 'block';
+            }
+            
+            function goToSlide2(index) {
+                currentSlide2 = Math.max(0, Math.min(index, totalSlides2 - 1));
+                updateSliderPosition2();
+            }
+            
+            prevBtn2.addEventListener('click', () => {
+                if (currentSlide2 > 0) {
+                    goToSlide2(currentSlide2 - 1);
+                }
+            });
+            
+            nextBtn2.addEventListener('click', () => {
+                if (currentSlide2 < totalSlides2 - 1) {
+                    goToSlide2(currentSlide2 + 1);
+                }
+            });
+            
+            // Initialize second slider
+            updateButtons2();
+
+            // Third Slider (Accessories)
+            const slider3 = document.getElementById('slider3');
+            const prevBtn3 = document.getElementById('prevBtn3');
+            const nextBtn3 = document.getElementById('nextBtn3');
+            const slides3 = document.querySelectorAll('#slider3 > .slider-item');
+            
+            let currentSlide3 = 0;
+            const totalSlides3 = slides3.length;
+            
+            function updateSliderPosition3() {
+                const slideWidth = 100;
+                slider3.style.transform = `translateX(-${currentSlide3 * slideWidth}%)`;
+                updateButtons3();
+            }
+            
+            function updateButtons3() {
+                prevBtn3.style.display = currentSlide3 === 0 ? 'none' : 'block';
+                nextBtn3.style.display = currentSlide3 >= totalSlides3 - 1 ? 'none' : 'block';
+            }
+            
+            function goToSlide3(index) {
+                currentSlide3 = Math.max(0, Math.min(index, totalSlides3 - 1));
+                updateSliderPosition3();
+            }
+            
+            prevBtn3.addEventListener('click', () => {
+                if (currentSlide3 > 0) {
+                    goToSlide3(currentSlide3 - 1);
+                }
+            });
+            
+            nextBtn3.addEventListener('click', () => {
+                if (currentSlide3 < totalSlides3 - 1) {
+                    goToSlide3(currentSlide3 + 1);
+                }
+            });
+            
+            // Initialize third slider
+            updateButtons3();
+        </script>
+    
+</body>
 </html>
